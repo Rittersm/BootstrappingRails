@@ -6,8 +6,8 @@ Rails.application.routes.draw do
   root 'login#index'
 
   # Example of regular route:
-    get 'member/:name' => 'member#welcome' as :member
-    get 'admin/:admin_title' = 'admin#verify' as :admin
+    get '/member' => 'member#welcome', as: :member
+    get '/admin' => 'admin#verify', as: :admin
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

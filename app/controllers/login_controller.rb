@@ -1,8 +1,7 @@
 class LoginController < ApplicationController
 
-  def login
+  def index
     @title = "Welcome to my website"
-    @links = %w(member admin)
   end
 
 end

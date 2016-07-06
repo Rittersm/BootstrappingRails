@@ -2,10 +2,7 @@ class LoginController < ApplicationController
 
   def login
     @title = "Welcome to my website"
-  end
-
-  def options
-
+    @links = %w(member admin)
   end
 
 end
